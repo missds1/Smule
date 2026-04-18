@@ -173,7 +173,7 @@ export default function App() {
   useEffect(() => {
     const saved = localStorage.getItem("final_color_db");
     if (saved) setCharacters(JSON.parse(saved));
-    else setCharacters([{ id: 1, name: "Темный Рыцарь", status: "Воин", color: "#722ed1", image: "https://unsplash.com" }]);
+    // else setCharacters([{ id: 1, name: "Темный Рыцарь", status: "Воин", color: "#722ed1", image: "https://unsplash.com" }]);
   }, []);
 
   useEffect(() => {
