@@ -1,0 +1,19 @@
+/* Это уберет белые/пустые полосы по краям всего экрана */
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden; /* Защита от горизонтальной прокрутки */
+  background-color: #16171d; /* Цвет вашего фона */
+}
+
+#root {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
