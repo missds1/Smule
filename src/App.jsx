@@ -33,7 +33,7 @@ const Home = ({ isAdmin, login }) => (
   }}>
     <Title level={1} style={{ margin: 0, color: '#f3f4f6', fontSize: 'clamp(2.5rem, 8vw, 4rem)', textShadow: '0 0 20px #722ed166' }}>Домик</Title>
     <Text style={{ fontSize: "1.3rem", color: "#9ca3af", marginBottom: 40, textAlign: 'center' }}>
-      Приветствую вас на доске позора🌙
+      Приветствую вас на доске сме...,кхм смулеров🌙
     </Text>
     {!isAdmin ? (
       <Button 
@@ -258,7 +258,7 @@ export default function App() {
                 <a key="f2" href="https://smule.com" target="_blank" rel="noreferrer"><CustomerServiceOutlined className="purple-hover-icon" style={{ color: '#722ed1' }} /></a>
                 <ThunderboltOutlined className="purple-hover-icon" style={{ color: '#722ed1' }} />
               </Space>
-              <Text style={{ color: '#444' }}>©2024 Сделано для Доски Позора 🌙</Text>
+              <Text style={{ color: '#444' }}>©2026 Сделано для себя 🌙</Text>
             </div>
           </Footer>
         </Layout>
